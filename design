@@ -1,0 +1,26 @@
+user: 
+  health
+  speed
+  damage
+  
+dinosaur:
+  health
+  speed
+  damage
+  
+big dinosaur:
+
+spooky dinosaur:
+
+flappy dinosaur:
+
+projectile dinosaur: 
+
+game: 
+  time
+  score
+  
+obstacle: 
+  coordinates 
+  time
+  
