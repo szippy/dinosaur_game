@@ -1,5 +1,5 @@
 # dinosaur_game
-dinosaurs: an exercise in oop concepts in Python
+dinosaurs: an exercise in oop concepts in Java
 
 The dinosaur game is a game that I like to use to get used to the OOP functions of any given programming language. 
 
