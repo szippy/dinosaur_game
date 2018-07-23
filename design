@@ -1,12 +1,23 @@
 user: 
-  health
-  speed
-  damage
+  health Default = 100
+  speed Defafult = 2 
+  x
+  y 
+  direction
+  name
+  
+  move() 
+  isSafe()
   
 dinosaur:
   health
   speed
   damage
+  name
+  
+  move()
+  isEating()
+  isStunned()
   
 big dinosaur:
 
