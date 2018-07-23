@@ -1,6 +1,6 @@
 user: 
   health Default = 100
-  speed Defafult = 2 
+  speed Defafult = 10
   x
   y 
   direction
@@ -10,17 +10,24 @@ user:
   isSafe()
   
 dinosaur:
-  health
-  speed
-  damage
-  name
+  health = 150
+  speed = 5
+  damage = 10
+  name = "Dinosaur"
   
   move()
   isEating()
   isStunned()
   
 big dinosaur:
-
+  health = 300
+  speed = 1
+  damage = 30
+  name = "Big Dinosaur"
+  
+  move()
+  isEating()
+  isStunned()
 spooky dinosaur:
 
 flappy dinosaur:
@@ -28,8 +35,9 @@ flappy dinosaur:
 projectile dinosaur: 
 
 game: 
-  time
-  score
+  time = 0
+  score = 0
+  isLost = false 
   
 obstacle: 
   coordinates 
@@ -37,7 +45,8 @@ obstacle:
   
 UserInterface:
   coordinates,
-  edges
+  edges, 
+  input 
   
   
   
