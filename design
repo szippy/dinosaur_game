@@ -24,3 +24,9 @@ obstacle:
   coordinates 
   time
   
+UserInterface:
+  coordinates,
+  edges
+  
+  
+  
