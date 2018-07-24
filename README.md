@@ -20,3 +20,7 @@ The exact behavior of movement for:
 Map creation, and GUI
 
 Damage, Counters, and Drawing. 
+
+Menus 
+
+Saving function eventually?
