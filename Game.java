@@ -8,7 +8,7 @@ public class Game {
     // constructor
     public Game(){
     }
-    
+
     //constructor with time and score
     public Game(int time, int score){
         setTime(time);
@@ -34,10 +34,16 @@ public class Game {
     public boolean isLost(){
         return isLost;
     }
-    
+
     public void setLost(boolean lost) {
         isLost = lost;
         //@todo determine if actually lost
+    }
+
+    public void exit(){
+        //@todo make this less shitty
+        System.out.print("Thank you for playing. Bye.");
+        System.exit(0);
     }
 }
 
