@@ -25,14 +25,14 @@ big dinosaur:
   damage = 30
   name = "Big Dinosaur"
   
-  move()
-  isEating()
-  isStunned()
+  charge()
 spooky dinosaur:
-
-flappy dinosaur:
-
-projectile dinosaur: 
+  health = 75
+  speed = 2
+  damage = 20
+  name = "Spooky Dinosaur"
+  
+  teleport() move five spaces towards the user (speed is suddenly 5)
 
 game: 
   time = 0
