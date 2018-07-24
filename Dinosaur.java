@@ -13,8 +13,10 @@ public class Dinosaur {
         setSpeed(1);
         setDamage(10);
     }
+    //Ment to be a base class for dinosaur classes that will 
+    //be used in the GUI. 
 
-    public void Move(){
+    public void Move(int speed){
         //@todo move the dinosaur depending on some shit
     }
 
