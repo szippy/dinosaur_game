@@ -13,5 +13,14 @@ character has health and damage
 some sort of music (don't bitch out this time) 
 some sort of obstacles to avoid
 
-Build out requirements and psuedocode while working on python problems in the other repo. 
-Then I'll start working on this more
+Going forward I need to start working on: 
+The exact behavior of movement for:
+  Users
+  Dinosaurs
+Map creation, and GUI
+
+Damage, Counters, and Drawing. 
+
+Menus 
+
+Saving function eventually?
