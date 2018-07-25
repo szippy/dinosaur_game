@@ -48,5 +48,13 @@ UserInterface:
   edges, 
   input 
   
-  
+ 
+ this is just so I remember to do it 
+ 
+ Still need to do, user interface, coordinates, edges, input. 
+ I got rid of two of the dinosaurs because I think it makes it too complicated
+ 
+ I'd like to add in an ability to play online, and have user accounts. Also a saving function. 
+ 
+ I could do that via a database because I miss working with SQL. 
   
