@@ -41,7 +41,7 @@ public class Game {
     }
 
     public void exit(){
-        //@todo make this less shitty
+        //@todo add logging, call the exit gui method that doesn't exist yet, etc
         System.out.print("Thank you for playing. Bye.");
         System.exit(0);
     }
