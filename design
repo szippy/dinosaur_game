@@ -57,4 +57,22 @@ UserInterface:
  I'd like to add in an ability to play online, and have user accounts. Also a saving function. 
  
  I could do that via a database because I miss working with SQL. 
-  
+ 
+ If I were going to do a database we'd have something in 2nf like: 
+ 
+ User
+ _____
+ ID     pk
+ Name
+ Pass
+ Average Score
+ High Score
+ GameID fk 
+ 
+ 
+ Game
+ ____
+ GameID pk
+ Timer
+ Score
+ State (I'd have to find some way to store state. Maybe it's own table, Probably XML file though)
