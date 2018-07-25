@@ -1,4 +1,5 @@
 package com.szippy.Dinosaurs;
+// player class for dinosaurs. May need imports later. 
 
 public class Player {
     private int health;
