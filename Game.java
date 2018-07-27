@@ -4,9 +4,21 @@ public class Game {
     private int time = 0;
     private int score = 0;
     private boolean isLost = false;
+    GamePanel g;
 
     // constructor
     public Game(){
+    }
+
+    public void startGame(){
+        g = new GamePanel();
+        //@todo
+    }
+
+    public void endGame(){
+        //@todo make this less shitty
+        System.out.print("Thank you for playing. Bye.");
+        System.exit(0);
     }
 
     //constructor with time and score
@@ -40,10 +52,6 @@ public class Game {
         //@todo determine if actually lost
     }
 
-    public void exit(){
-        //@todo add logging, call the exit gui method that doesn't exist yet, etc
-        System.out.print("Thank you for playing. Bye.");
-        System.exit(0);
-    }
+
 }
 
