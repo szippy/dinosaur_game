@@ -10,6 +10,7 @@ public class GamePanel {
         //default constructor
         //@todo finish this
         createWindow();
+        drawMap();
     }
 
     void createWindow(){
@@ -24,9 +25,15 @@ public class GamePanel {
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         frame.setBounds((int) screenSize.getWidth() - frameWidth, 0, frameWidth, frameHeight);
         frame.setVisible(true);
+        System.out.println("Frame created");
     }
+    
+     void drawMap(){
+        System.out.println("drawMap called");
+     }
 
     void refresh(){
 
     }
 }
+
